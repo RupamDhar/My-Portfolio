@@ -1,0 +1,57 @@
+:root {
+  font-family: Poppins;
+
+  --theme-color: brown;
+  --bg-text: rgb(235, 235, 235);
+  --shadow-color: rgb(210, 210, 210);
+
+  --text-primary: black;
+  --text-secondary: #3C3C3C;
+  --text-tertiary: #5f5f5f;
+
+  --bg-hero-section: rgb(112, 112, 112);
+  --bg-body-primary: rgb(241, 241, 241);
+  --bg-body-secondary: white;
+
+  --footer-bg: rgb(206, 206, 206);
+  --footer-info: rgb(146, 146, 146);
+}
+
+[theme='dark'] {
+  --theme-color: #cf1919;
+  --bg-text: rgb(30, 30, 30);
+  --shadow-color: black;
+  
+  --text-primary: white;
+  --text-secondary: #C2C2C2;
+  --text-tertiary: #ACACAC;
+  
+  --bg-skills: #3f3f3f;
+  --color-skills: white;
+
+  --bg-body-primary: #1b1b1b;
+  --bg-body-secondary: #131313;
+
+  --footer-bg: #34383a;
+  --footer-info: #565D60;
+}
+
+* {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  background-color: var(--bg-body-primary);
+
+  transition: all 0.15s ease-in-out;
+}
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

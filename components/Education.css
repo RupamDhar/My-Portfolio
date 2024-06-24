@@ -1,0 +1,114 @@
+.my-education {
+    /* z-index: -100; */
+    position: relative;
+
+    padding: 75px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-body-secondary);
+
+    overflow: hidden;
+}
+
+
+.bg {
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14vw;
+    font-family: Outfit;
+    font-weight: 900;
+    /* line-height: 20px; */
+    color: var(--bg-text);
+}
+
+.title {
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 40%;
+    border-radius: 2px;
+    background: var(--theme-color);
+}
+
+.edu-wrapper {
+    z-index: 99;
+    margin-top: 20px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 20px;
+}
+
+.edu-progress {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+.line {
+    height: 170px;
+    width: 3px;
+    background-color: brown;
+}
+
+.edu-info {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.point {
+    font-size: 22px;
+    color: var(--text-primary);
+}
+.point > b {
+    font-size: 30px;
+    color: var(--text-secondary);
+}
+
+.fa-calendar-days {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+/* ANIMATION */
+.hidden {
+    transform: translateX(-500px);
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
+}
+
+.show {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}

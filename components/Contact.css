@@ -1,0 +1,45 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 60px 120px 75px;
+
+    background-color: var(--footer-bg);
+}
+
+.contact-methods {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+
+    padding: 20px 100px;
+    margin-top: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    padding: 14px 0;
+    width: 450px;
+
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    color: white;
+    background-color: var(--footer-info);
+    transition: all 0.15s linear;
+}
+.contact:hover {
+    transform: scale(1.02);
+}
+
+.contact > img {
+    height: 50px;
+}

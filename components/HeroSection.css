@@ -1,0 +1,91 @@
+.hero-section {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 74px;
+    height: 80vh;
+    width: 100%;
+
+    background: url('/me2.jpg');
+    background-size: cover;
+    /* background: linear-gradient(var(--bg-hero-section), white); */
+}
+
+
+.about-me {
+    position: absolute;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    width: 45%;
+    gap: 30px;
+
+    margin-right: 80px;
+}
+
+.about-me>div {
+    width: 100%;
+}
+
+.about-me-title {
+    font-size: 8vh;
+    font-weight: 700;
+    color: rgb(32, 32, 32);
+}
+
+.about-me-sub-title {
+    margin-top: -10px;
+    font-size: 4.5vh;
+    font-weight: 600;
+    color: var(--theme-color);
+}
+
+.about-me-desc {
+    font-size: 20px;
+}
+
+.about-me-btn {
+    margin-top: 8px;
+    height: 55px;
+    width: 200px;
+
+    border: 2px solid var(--theme-color);
+    border-radius: 6px;
+
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Poppins;
+
+    color: var(--theme-color);
+    background-color: white;
+
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.about-me-btn:hover {
+    background-color: var(--theme-color);
+    color: white;
+}
+
+
+
+
+.about-me-image {
+    display: none;
+    overflow: hidden;
+    width: 24%;
+    height: fit-content;
+}
+
+.my-image {
+    height: 100%;
+    /* width: 100%; */
+    transition: all 0.15s ease-in-out;
+}

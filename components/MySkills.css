@@ -1,0 +1,57 @@
+.my-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: fit-content;
+
+    padding: 75px 50px;
+}
+
+.skills-wrapper {
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 20px;
+
+    font-size: 1.2rem;
+}
+
+.skills {
+    z-index: 999;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+
+    height: 130px;
+    width: 120px;
+
+    padding: 12px;
+
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(216, 216, 216);
+    font-weight: 600;
+    color: var(--text-primary);
+    background-color: white;
+
+    transition: all 0.1s linear;
+}
+.skills:hover {
+    transform: translateY(-5px);
+}
+[theme='dark'] .skills {
+    color: var(--text-primary);
+    background-color: var(--bg-skills);
+    box-shadow: 0 0 10px black;
+}
+
+.skill-image {
+    width: 80px;
+    height: 80px;
+    /* background-color: white; */
+}

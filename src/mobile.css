@@ -1,0 +1,269 @@
+@media(max-width:1080px) {
+
+    .title {
+        margin: 0;
+        font-size: 24px;
+    }
+    .container {
+        bottom: 40px;
+        right: 30px;
+    }
+    .toggle {
+        height: 40px;
+        width: 40px;
+    }
+    .toggle.theme svg {
+        height: 20px;
+    }
+
+
+
+    /* NAVBAR */
+    .navbar {
+        padding: 10px 20px;
+        /* background-color: aquamarine; */
+    }
+    .navbar-title {
+        font-size: 25px;
+    }
+    .navbar-list {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+    
+    /* HERO SECTION */
+    .about-me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: static;
+        width: 100%;
+        margin: 0;
+        padding: 0 15px;
+        gap: 12px;
+    }
+    .about-me-title {
+        font-size: 24px;
+    }
+    .about-me-sub-title {
+        margin: 0;
+        font-size: 16px;
+    }
+    .about-me-desc {
+        font-size: 14px;
+    }
+    .about-me-btn {
+        height: 44px;
+        width: 14;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* SKILLS */
+    .my-skills {
+        padding: 70px 20px;
+        height: fit-content;
+
+        /* background-color: ; */
+    }
+    .skills-wrapper {
+        padding: 20px 5px;
+        gap: 10px;
+    }
+    .skills {
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+
+        padding: 8px;
+
+        height: fit-content;
+        width: 80px;
+
+        font-size: 14px;
+
+        box-shadow: 0 0 10px rgb(216, 216, 216);
+        user-select: none;
+    }
+    .skills:hover {
+        transform: none;
+    }
+    .skill-image {
+        height: 60px;
+        width: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* EDUCATION */
+    .my-education {
+        padding: 70px 20px;
+    }
+    .bg {
+        display: none;
+    }
+    .edu-progress {
+        width: 30px;
+    }
+    .edu-info {
+        gap: 50px;
+    }
+    .point {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .point > b {
+        font-size: 18px;
+    }
+    .line {
+        height: 145px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* PORTFOLIO */
+    .portfolio {
+        padding: 70px 0px;
+    }
+    .portfolio-title::after {
+        margin-left: 20px;
+    }
+    .portfolio-title > b {
+        display: inline;
+        width: fit-content;
+    }    
+    .projects-wrapper {
+        width: 100%;
+        height: fit-content;
+
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 0;
+
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+    }
+    .project {
+        flex: 0 0 auto;
+        margin: 0 10px;
+
+        width: 320px;
+        height: fit-content;
+        
+        box-shadow: 0 0 5px var(--shadow-color);
+        scroll-snap-align: center;
+    }
+    .project:hover {
+        transform: none;
+        opacity: none;
+    }
+    .project-info {
+        width: 100%;
+        position: relative;
+        inset: auto;
+        opacity: 1;
+        margin-top: -7px;
+        height: fit-content;
+        background-color: var(--bg-body-secondary);
+    }
+    .project-title {
+        margin-top: 8px;
+        font-size: 22px;
+        color: var(--text-primary);
+    }
+    .project-type {
+        margin-bottom: 0;
+        font-size: 14px;
+        color: gray;
+    }
+    .project-desc {
+        display: none;
+    }
+    .project-btn {
+        /* margin: 0; */
+        padding: 10px 0;
+
+        width: 100%;
+
+        font-size: 16px;
+        font-weight: 600;
+
+        border-top: 1px solid rgb(240, 240, 240);
+        border-radius: 0;
+
+        color: var(--theme-color);
+        background-color: var(--bg-body-secondary);    
+    }
+    [theme='dark'] .project-btn {
+        border-top: 1px solid rgb(56, 56, 56);
+    }
+    .project-image {
+        height: 320px;
+        width: 320px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* CONTACT */
+    .contact-section {
+        padding: 30px 20px 40px;
+    }
+    .contact-methods {
+        padding: 0px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+        gap: 12px;
+    }
+    .contact {
+        padding: 14px 8px;
+
+        width: 100%;
+        font-size: 16px;
+
+        gap: 5px;
+    }
+    .contact > img {
+        height: 20px;
+    }
+}
