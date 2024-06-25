@@ -12,21 +12,21 @@ const Portfolio = () => {
             projectName: 'Global Auto Experts',
             projectType: 'Web Design',
             projectDesc: 'Anandi is a full-stack MERN online store platform designed to provide users with a seamless exploration experience for clothing and apparel products',
-            projectLink: 'https://github.com/RupamDhar/Anandi-Online-Store'
+            projectLink: 'https://github.com/RupamDhar/Global-Auto-Exports-homepage'
         },
         {
             projectImg: '/portfolio/anandi.png',
             projectName: 'Anandi',
             projectType: 'Website',
             projectDesc: 'Anandi is a full-stack MERN online store platform designed to provide users with a seamless exploration experience for clothing and apparel products',
-            projectLink: 'https://github.com/RupamDhar/Anandi-Online-Store'
+            projectLink: 'https://anandi.vercel.app'
         },
         {
             projectImg: '/portfolio/dressemporium.png',
             projectName: 'Dress Emporium',
             projectType: 'Web Design',
-            projectDesc: 'Anandi is a full-stack MERN online store platform designed to provide users with a seamless exploration experience for clothing and apparel products',
-            projectLink: 'https://github.com/RupamDhar/Anandi-Online-Store'
+            projectDesc: 'The Dress Emporium is a static website, which is a responsive and elegant online dress store featuring a carousel, in-store items, and brand partners',
+            projectLink: 'https://newdressemporium.web.app'
         },
         {
             projectImg: '/portfolio/technicia.png',

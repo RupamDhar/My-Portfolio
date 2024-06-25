@@ -12,18 +12,32 @@ const Contact = () => {
                     <img src="/contacts/gmail.svg" alt="" />
                     <div className="contact-name">rupamdhar1000@gmail.com</div>
                 </div>
+
                 <div className="contact">
                     <img src="/contacts/phone.svg" alt="" />
                     <div className="contact-name">+91 90074 70139</div>
                 </div>
+
+                <div className="contact">
+                    <img src="/contacts/whatsapp.svg" alt="" />
+                    <div className="contact-name">+91 90074 70139</div>
+                </div>
+
                 <a href='https://www.linkedin.com/in/rupam-dhar-692888202/' target='_blank' className="contact">
                     <img src="/contacts/linkedin.svg" alt="" />
                     <div className="contact-name">Rupam Dhar</div>
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
+
                 <a href='https://x.com/siegexghost/' target='_blank' className="contact">
                     <img src="/contacts/twitter.svg" alt="" />
                     <div className="contact-name">Rupam Dhar</div>
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <a href='https://discordapp.com/users/692961459784777740' target='_blank' className="contact">
+                    <img src="/contacts/discord.svg" alt="" />
+                    <div className="contact-name">CyberGHOST</div>
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
             </div>
