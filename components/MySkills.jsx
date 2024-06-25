@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './MySkills.css'
 
 const MySkills = () => {
@@ -54,14 +54,30 @@ const MySkills = () => {
         }
     ];
 
-    
+
+    useEffect(() => {
+        const skills = document.querySelectorAll('.skills');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach((entry, index) => {
+                setTimeout(() => {
+                    if(entry.isIntersecting) entry.target.classList.add('show-skill');
+                }, 100 * index);
+            })
+        })
+
+        skills.forEach(skill => observer.observe(skill))
+
+    }, []);
+
+
     return (
         <div id='skills' className='my-skills'>
             <span className="title skills-title" >Skills</span>
 
             <div className="skills-wrapper">
                 {skills.map((skill, index) => (
-                    <div className="skills" key={index}>
+                    <div className="skills hidden-skill" key={index}>
                         <img className='skill-image' src={skill.skillImg} alt="" />
                         {skill.skillName}
                     </div>

@@ -40,6 +40,9 @@
     transform: translateY(-5px);
     box-shadow: 0 5px 5px grey;
 }
+[theme='dark'] .contact:hover {
+    box-shadow: 0 5px 5px rgb(29, 29, 29);
+}
 .contact:active {
     transform: translateY(0);
     box-shadow: none;

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import './Portfolio.css'
@@ -51,6 +51,21 @@ const Portfolio = () => {
         },
     ];
 
+    useEffect(() => {
+        const projects = document.querySelectorAll('.project');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach((entry, index) => {
+                setTimeout(() => {
+                    if (entry.isIntersecting) entry.target.classList.add('show-project');
+                }, 100 * index);
+            })
+        })
+
+        projects.forEach(project => observer.observe(project))
+
+    }, []);
+
     return (
         <div id='portfolio' className='portfolio'>
             <span className='title portfolio-title'>
@@ -58,7 +73,7 @@ const Portfolio = () => {
             </span>
             <div className="projects-wrapper">
                 {projects.map((project, index) => (
-                    <div className="project" key={index} target='_blank'>
+                    <div className="project hidden-project" key={index} target='_blank'>
                         <img src={project.projectImg} className='project-image' alt="project-image" />
                         <div className="project-info">
                             <div className="project-title">{project.projectName}</div>
