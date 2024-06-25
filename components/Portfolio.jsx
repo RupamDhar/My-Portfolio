@@ -11,8 +11,8 @@ const Portfolio = () => {
             projectImg: '/portfolio/globalexperts.png',
             projectName: 'Global Auto Experts',
             projectType: 'Web Design',
-            projectDesc: 'Anandi is a full-stack MERN online store platform designed to provide users with a seamless exploration experience for clothing and apparel products',
-            projectLink: 'https://github.com/RupamDhar/Global-Auto-Exports-homepage'
+            projectDesc: 'Global Auto Experts is a webpage for desktop focused on providing automotive services as well as services in the domain of consultancy and software development',
+            projectLink: 'https://globalautoexports.vercel.app/'
         },
         {
             projectImg: '/portfolio/anandi.png',
