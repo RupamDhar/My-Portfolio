@@ -48,8 +48,12 @@ const MySkills = () => {
             skillImg: '/skills/blender.svg',
             skillName: 'Blender'
         },
+        {
+            skillImg: '/skills/figma.svg',
+            skillName: 'Figma'
+        }
     ];
-
+    
     return (
         <div id='skills' className='my-skills'>
             <span className="title skills-title" >Skills</span>
