@@ -12,7 +12,7 @@ const Portfolio = () => {
             projectName: 'Global Auto Experts',
             projectType: 'Web Design',
             projectDesc: 'Global Auto Experts is a webpage for desktop focused on providing automotive services as well as services in the domain of consultancy and software development',
-            projectLink: 'https://globalautoexports.vercel.app/'
+            projectLink: 'https://github.com/RupamDhar/Global-Auto-Exports-homepage'
         },
         {
             projectImg: '/portfolio/anandi.png',

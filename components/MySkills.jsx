@@ -53,6 +53,7 @@ const MySkills = () => {
             skillName: 'Figma'
         }
     ];
+
     
     return (
         <div id='skills' className='my-skills'>
