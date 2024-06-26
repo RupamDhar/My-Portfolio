@@ -13,7 +13,9 @@
     background-size: cover;
     /* background: linear-gradient(var(--bg-hero-section), white); */
 }
-
+.gradient {
+    display: none;
+}
 
 .about-me {
     position: absolute;

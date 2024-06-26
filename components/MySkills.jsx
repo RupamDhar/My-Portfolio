@@ -61,10 +61,10 @@ const MySkills = () => {
         const observer = new IntersectionObserver(entries => {
             entries.forEach((entry, index) => {
                 setTimeout(() => {
-                    if(entry.isIntersecting) entry.target.classList.add('show-skill');
+                    if (entry.isIntersecting) entry.target.classList.add('show-skill');
                 }, 100 * index);
             })
-        })
+        }, { threshold: 1 })
 
         skills.forEach(skill => observer.observe(skill))
 

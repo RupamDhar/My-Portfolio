@@ -24,6 +24,7 @@
         /* background-color: aquamarine; */
     }
     .navbar-title {
+        color: black;
         font-size: 25px;
     }
     .navbar-list {
@@ -40,6 +41,15 @@
 
     
     /* HERO SECTION */
+    .hero-section {
+        background: url('/me4.jpg');
+        background-size: cover;
+        background-position: center;
+
+        height: 75vh;
+
+        align-items: flex-end;
+    }
     .about-me {
         display: flex;
         justify-content: center;
@@ -48,23 +58,46 @@
         position: static;
         width: 100%;
         margin: 0;
+        margin-bottom: 30px;
         padding: 0 15px;
         gap: 12px;
+        /* background-color: rgba(0,0,0,0.3); */
+    }
+    .gradient {
+        position: absolute;
+        bottom: 0;
+
+        display: inline;
+        height: 20px;
+        width: 120%;
+
+        background-color: aquamarine;
+        background: linear-gradient(transparent, var(--bg-body-primary));
     }
     .about-me-title {
+        color: white;
         font-size: 24px;
     }
+    .about-me-title > span {
+        filter: drop-shadow(0 0 5px black);
+    }
     .about-me-sub-title {
+        color: rgb(255, 86, 86);
+        filter: drop-shadow(0 0 2px black);
         margin: 0;
         font-size: 16px;
     }
     .about-me-desc {
+        color: white;
         font-size: 14px;
     }
     .about-me-btn {
         height: 44px;
         width: 14;
         font-size: 16px;
+
+        color: white;
+        background-color: var(--theme-color);
     }
 
 

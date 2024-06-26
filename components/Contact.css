@@ -43,6 +43,10 @@
 [theme='dark'] .contact:hover {
     box-shadow: 0 5px 5px rgb(29, 29, 29);
 }
+[theme='dark'] .contact:active {
+    transform: translateY(0px);
+    box-shadow: none;
+}
 .contact:active {
     transform: translateY(0);
     box-shadow: none;

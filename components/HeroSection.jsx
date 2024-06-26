@@ -6,7 +6,7 @@ const HeroSection = () => {
         <div className='hero-section'>
             <div className="about-me">
                 <div className="about-me-title">
-                    Hi, I'm Rupam Dhar
+                    <span>Hi, I'm Rupam Dhar</span>
                     <div className="about-me-sub-title">Software Engineer</div>
                 </div>
                 <div className="about-me-desc">
@@ -15,6 +15,7 @@ const HeroSection = () => {
                 <a href='/cv.pdf' download="Rupam_Dhar_CV.pdf">
                     <button className="about-me-btn">Download CV</button>
                 </a>
+                <div className='gradient'></div>
             </div>
 
             {/* <div className="about-me-image">
