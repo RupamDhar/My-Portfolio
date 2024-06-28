@@ -18,7 +18,7 @@ const HeroSection = () => {
                     </a>
                     <a href="https://github.com/RupamDhar" target='_blank' className='github-btn'>
                         <img src="/github.svg" alt="" className='github-logo'/>
-                        <span className='github-name'>Github</span>
+                        <span className='github-name'>GitHub</span>
                         <i className="fa-solid fa-arrow-right github-arrow"></i>
                     </a>
                 </div>
