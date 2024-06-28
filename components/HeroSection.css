@@ -52,28 +52,73 @@
     font-size: 20px;
 }
 
-.about-me-btn {
+.btn-container {
     margin-top: 8px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.about-me-btn {
     height: 55px;
     width: 200px;
 
-    border: 2px solid var(--theme-color);
-    border-radius: 6px;
+    /* border: 2px solid var(--theme-color); */
+    /* border-top: 2px solid indianred;
+    border-left: 2px solid indianred;
+    border-right: 3px solid darkred;
+    border-bottom: 3px solid darkred; */
+    border: none;
+    border-radius: 8px;
 
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     font-family: Poppins;
 
-    color: var(--theme-color);
-    background-color: white;
+    color: white;
+    background-color: var(--theme-color);
 
-    transition: all 0.15s ease-in-out;
+    transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
 
 .about-me-btn:hover {
-    background-color: var(--theme-color);
-    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 3px 5px grey;
+}
+
+.github-btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 51px;
+    width: fit-content;
+    padding: 0 20px;
+
+    border: 2.5px solid var(--theme-color);
+    border-radius: 8px;
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--theme-color);
+}
+.github-logo {
+    height:30px;
+    width: 30px;
+}
+.github-name {
+    margin-left: 10px;
+}
+.github-arrow {
+    overflow: hidden;
+    width: 0;
+    transition: all 0.2s ease-in-out;
+}
+.github-btn:hover > .github-arrow {
+    width: 18px;
+    margin-left: 10px;
 }
 
 

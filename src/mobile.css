@@ -24,7 +24,7 @@
         /* background-color: aquamarine; */
     }
     .navbar-title {
-        color: black;
+        color: #404040;
         font-size: 25px;
     }
     .navbar-list {
@@ -93,11 +93,31 @@
     }
     .about-me-btn {
         height: 44px;
-        width: 14;
+        width: 170px;
         font-size: 16px;
 
         color: white;
         background-color: var(--theme-color);
+    }
+    .btn-container {
+        justify-content: center;
+    }
+    .github-btn {
+        height: fit-content;
+        width: fit-content;
+
+        border: 0px;
+        padding: 0;
+    }
+    .github-name {
+        display: none;
+    }
+    .github-logo {
+        height: 42px;
+        width: 42px;
+    }
+    .github-arrow {
+        display: none;
     }
 
 
