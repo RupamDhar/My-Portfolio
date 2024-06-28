@@ -40,6 +40,7 @@
     background-color: white;
 
     transition: all 0.1s linear;
+    user-select: none;
 }
 .skills:hover {
     transform: translateY(-5px);
