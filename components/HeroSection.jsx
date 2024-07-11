@@ -13,7 +13,7 @@ const HeroSection = () => {
                     I am a Computer Science Engineer based in India who can design and develop websites, web applications, mobile applications as well as games. Additionally, I also have experience in 3D modelling.
                 </div>
                 <div className="btn-container">
-                    <a href='/cv.pdf' download="Rupam_Dhar_CV.pdf">
+                    <a href='/cv.pdf' className="about-me-btn" download="Rupam_Dhar_CV.pdf">
                         <button className="about-me-btn">Download CV</button>
                     </a>
                     <a href="https://github.com/RupamDhar" target='_blank' className='github-btn'>

@@ -42,13 +42,15 @@
     
     /* HERO SECTION */
     .hero-section {
-        background: url('/me4.jpg');
+        background: none;
+        background-color: var(--bg-body-secondary);   
+        /* background: url('/me4.jpg'); */
         background-size: cover;
         background-position: center;
 
         height: 75vh;
 
-        align-items: flex-end;
+        /* align-items: flex-end; */
     }
     .about-me {
         display: flex;
@@ -60,7 +62,7 @@
         margin: 0;
         margin-bottom: 30px;
         padding: 0 15px;
-        gap: 12px;
+        gap: 20px;
         /* background-color: rgba(0,0,0,0.3); */
     }
     .gradient {
@@ -75,49 +77,44 @@
         background: linear-gradient(transparent, var(--bg-body-primary));
     }
     .about-me-title {
-        color: white;
-        font-size: 24px;
-    }
-    .about-me-title > span {
-        filter: drop-shadow(0 0 5px black);
+        color: var(--text-primary);
+        font-size: 32px;
     }
     .about-me-sub-title {
-        color: rgb(255, 86, 86);
-        filter: drop-shadow(0 0 2px black);
+        color: var(--theme-color);
         margin: 0;
-        font-size: 16px;
+        font-size: 20px;
     }
     .about-me-desc {
-        color: white;
+        color: var(--text-primary);
         font-size: 14px;
     }
     .about-me-btn {
-        height: 44px;
-        width: 170px;
-        font-size: 16px;
+        height: 55px;
+        width: 80%;
+        font-size: 20px;
 
         color: white;
         background-color: var(--theme-color);
     }
     .btn-container {
+        flex-wrap: wrap;
         justify-content: center;
     }
     .github-btn {
-        height: fit-content;
-        width: fit-content;
+        height: 51px;
+        width: 79%;
 
-        border: 0px;
+        justify-content: center;
+        align-items: center;
         padding: 0;
     }
     .github-name {
-        display: none;
+        /* display: none; */
     }
     .github-logo {
-        height: 42px;
-        width: 42px;
-    }
-    .github-arrow {
-        display: none;
+        height: 35px;
+        width: 35px;
     }
 
 
