@@ -40,6 +40,9 @@
     font-weight: 700;
     color: rgb(32, 32, 32);
 }
+[theme='dark'] .about-me-title {
+    color: var(--text-primary);
+}
 
 .about-me-sub-title {
     margin-top: -10px;
@@ -50,6 +53,9 @@
 
 .about-me-desc {
     font-size: 20px;
+}
+[theme='dark'] .about-me-desc {
+    color: var(--text-primary);
 }
 
 .btn-container {

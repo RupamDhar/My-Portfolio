@@ -5,16 +5,20 @@ const MySkills = () => {
 
     const skills = [
         {
-            skillImg: '/skills/c.svg',
-            skillName: 'C'
+            skillImg: '/skills/react.svg',
+            skillName: 'React'
         },
         {
-            skillImg: '/skills/cpp.svg',
-            skillName: 'C++'
+            skillImg: '/skills/nodejs.svg',
+            skillName: 'NodeJS'
         },
         {
-            skillImg: '/skills/java.svg',
-            skillName: 'Java'
+            skillImg: '/skills/mongodb.svg',
+            skillName: 'MongoDB'
+        },
+        {
+            skillImg: '/skills/express.svg',
+            skillName: 'ExpressJS'
         },
         {
             skillImg: '/skills/html.svg',
@@ -29,20 +33,16 @@ const MySkills = () => {
             skillName: 'Javascript'
         },
         {
-            skillImg: '/skills/mongodb.svg',
-            skillName: 'MongoDB'
+            skillImg: '/skills/c.svg',
+            skillName: 'C'
         },
         {
-            skillImg: '/skills/express.svg',
-            skillName: 'ExpressJS'
+            skillImg: '/skills/cpp.svg',
+            skillName: 'C++'
         },
         {
-            skillImg: '/skills/react.svg',
-            skillName: 'React'
-        },
-        {
-            skillImg: '/skills/nodejs.svg',
-            skillName: 'NodeJS'
+            skillImg: '/skills/java.svg',
+            skillName: 'Java'
         },
         {
             skillImg: '/skills/blender.svg',
