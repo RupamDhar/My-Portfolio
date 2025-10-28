@@ -8,18 +8,18 @@ const Portfolio = () => {
 
     const projects = [
         {
-            projectImg: '/portfolio/blogex.png',
-            projectName: 'Blogex',
-            projectType: 'Web Application',
-            projectDesc: 'Blogex is a MERN-stack blog web application that allows users to read, explore, summarize with AI, and publish blogs in a clean and responsive interface',
-            projectLink: 'https://blogexblog.vercel.app'
-        },
-        {
             projectImg: '/portfolio/globalexperts.png',
             projectName: 'Global Auto Experts',
             projectType: 'Web Design',
             projectDesc: 'Global Auto Experts is a webpage for desktop focused on providing automotive services as well as services in the domain of consultancy and software development',
             projectLink: 'https://globalautoexperts.vercel.app'
+        },
+        {
+            projectImg: '/portfolio/blogex.png',
+            projectName: 'Blogex',
+            projectType: 'Web Application',
+            projectDesc: 'Blogex is a MERN-stack blog web application that allows users to read, explore, summarize with AI, and publish blogs in a clean and responsive interface',
+            projectLink: 'https://blogexblog.vercel.app'
         },
         {
             projectImg: '/portfolio/anandi.png',
