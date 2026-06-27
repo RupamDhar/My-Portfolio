@@ -133,7 +133,7 @@
     width: clamp(280px, 32vw, 900px);
     aspect-ratio: 1 / 1;
 
-    border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+    border-radius: 45% 55% 60% 40% / 50% 45% 55% 50%;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
 }
