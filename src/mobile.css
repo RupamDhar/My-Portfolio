@@ -43,14 +43,19 @@
     /* HERO SECTION */
     .hero-section {
         background: none;
-        background-color: var(--bg-body-secondary);   
+        background-color: var(--bg-body-secondary);
         /* background: url('/me4.jpg'); */
         background-size: cover;
         background-position: center;
 
+        padding: 74px 15px 0;
         height: 75vh;
+        gap: 0;
 
         /* align-items: flex-end; */
+    }
+    .about-me-image {
+        display: none;
     }
     .about-me {
         display: flex;
@@ -101,6 +106,9 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    .cv-btn-wrapper {
+        width: 100%;
+    }
     .github-btn {
         height: 51px;
         width: 79%;
@@ -109,9 +117,9 @@
         align-items: center;
         padding: 0;
     }
-    .github-name {
-        /* display: none; */
-    }
+    /* .github-name {
+        display: none;
+    } */
     .github-logo {
         height: 35px;
         width: 35px;
